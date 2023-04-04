@@ -6,43 +6,60 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Discord Struttura</title>
+        <title>Discord</title>
 
         <link rel="stylesheet" href="css/style.css">
     </head>
-    
+
     <body>
         <header>
             <section class="upper container flex">
-                <div class="logo dashed-border background-gold">
-                    logo
+                <div class="logo">
+                    <!-- Logo -->
+                    <img src="./img/logo.svg" alt="logo">
                 </div>
                 <nav>
-                    <ul class="flex dashed-border background-gold">
+                    <ul class="flex">
                         <li>
-                            link
+                            Scarica
                         </li>
                         <li>
-                            link
+                            Perché Discord
                         </li>
                         <li>
-                            link
+                            Nitro
                         </li>
                         <li>
-                            link
+                            Sicurezza
                         </li>
                         <li>
-                            link
+                            Assistenza
                         </li>
                     </ul>
                 </nav>
-                <div class="login dashed-border background-gold">
-                    login
+                <div class="login">
+                    <button id="access">Accedi</button>
                 </div>
             </section>
+
             <section class="jumbotron">
                 <div class="container flex">
-                    <div class="hero dashed-border margin-auto">
+                    <div class="hero margin-auto">
+                        <h1 class="flex">Il tuo posto per parlare</h1>
+                        <br>
+                        <p  class="flex">
+                            Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.
+                        </p>
+
+                        <div class="buttons"> 
+                            <button class="flex" id="download">
+                                <strong>&#x2193;  </strong> Scarica per Mac
+                            </button>
+    
+                            <button class="flex" id="open-in-browser">
+                                Apri Discord nel tuo browser
+                            </button>
+                        </div>
 
                     </div>
                 </div>
@@ -52,28 +69,79 @@
         <main>
             <section>
                 <div class="container flex">
-                    <div class="blue-column dashed-border"></div>
-                    <div class="pink-column dashed-border"></div>
+                    <div class="blue-column">
+                        <img src="img/item1.svg">
+                    </div>
+                    <div class="pink-column">
+                        <h2>
+                            Un luogo a invito con tutto lo spazio necessario per parlare
+                        </h2>
+                        <p>
+                            I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere, o semplicemente parlare della tua giornata senza intasare una chat di gruppo
+                        </p>
+                    </div>
                 </div>
             </section>
 
             <section class="background-gray">
                 <div class="container flex">
-                    <div class="pink-column dashed-border"></div>
-                    <div class="blue-column dashed-border"></div>
+                    <div class="pink-column">
+                        <h2> 
+                            Dove trovarsi è facile 
+                        </h2>
+
+                        <p>
+                            Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei lì e unirsi istantaneamente senza dover chiamare.
+                        </p>
+
+                    </div>
+
+                    <div class="blue-column">
+                        <img src="img/item2.svg">
+                    </div>
                 </div>
             </section>
 
             <section>
                 <div class="container flex">
-                    <div class="blue-column dashed-border"></div>
-                    <div class="pink-column dashed-border"></div>
+                    <div class="blue-column">
+                        <img src="img/item3.svg">
+                    </div>
+
+                    <div class="pink-column">
+                        <h2>Da pochi a un fandom</h2>
+                        <p> 
+                            Dai inizio a una community di qualsiasi dimensione con strumenti moderazione e accesso ai membri personalizzabile. Concedi 
+                        </p>
+                    </div>
                 </div>
             </section>
 
             <section class="background-gray">
                 <div class="container flex">
-                    <div class="big-column dashed-border"></div>
+                    <div class="big-column">
+
+                        <h2>
+                            Tecnologia affidabile per tenersi in contatto
+                        </h2>
+
+                        <p>
+                            Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.
+                        </p>
+
+                        <img src="img/item4-big.svg">
+
+                        <div class="starred-background"> 
+                            <h2>
+                                Pronto a iniziare la tua avventura?
+                            </h2>
+                        </div>
+
+                        <button class="flex" id="download-bottom">
+                            <strong>&#x2193;  </strong> Scarica per Mac
+                        </button>
+
+                    </div>
                 </div>
             </section>
 
@@ -81,21 +149,133 @@
 
         <footer>
             <section class="container footer-top flex">
-                <div class="main-column dashed-border"></div>
+                <div class="main-column">
+                    <h2>Il tuo posto per parlare</h2>
+                    <img src="img/ita.png">
+                    <span>Italiano &#8964;</span>
+                    <div class="social-logos">
+                        <img src="./img/twitter.svg" alt="twitter" id="twitter">
+                        <img src="./img/instagram.svg" alt="instagram" id="instagram">
+                        <img src="./img/facebook.svg" alt="facebook" id="facebook">
+                        <img src="./img/youtube.svg" alt="youtube" id="youtube">
+                    </div>
+
+                </div>
                 <div class="footer-columns dashed-border flex">
-                    <div class="secondary-column dashed-border-white"></div>
-                    <div class="secondary-column dashed-border-white"></div>
-                    <div class="secondary-column dashed-border-white"></div>
-                    <div class="secondary-column dashed-border-white"></div>
+                    <div class="secondary-column dashed-border-white">
+                        <ul class="flex">
+                            <li class="color-violet">
+                                Prodotto
+                            </li>
+                            <li>
+                                Scarica
+                            </li>
+                            <li>
+                                Perchè Discord
+                            </li>
+                            <li>
+                                Sicurezza
+                            </li>
+                            <li>
+                                Assistenza
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="secondary-column dashed-border-white">
+                        <ul class="flex">
+                            <li class="color-violet">
+                                Compagnia
+                            </li>
+                            <li>
+                                Chi siamo
+                            </li>
+                            <li>
+                                Lavora con noi
+                            </li>
+                            <li>
+                                Marchio
+                            </li>
+                            <li>
+                                Redazione
+                            </li>
+                            <li>
+                                Negozio
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="secondary-column dashed-border-white">
+                        <ul class="flex">
+                            <li class="color-violet">
+                                Risorse
+                            </li>
+                            <li>
+                                Scarica
+                            </li>
+                            <li>
+                                Perchè Discord
+                            </li>
+                            <li>
+                                Nitro
+                            </li>
+                            <li>
+                                Sicurezza
+                            </li>
+                            <li>
+                                Assistenza
+                            </li>
+                            <li>
+                                Scarica
+                            </li>
+                            <li>
+                                Perchè Discord
+                            </li>
+                            <li>
+                                Nitro
+                            </li>
+                            <li>
+                                Sicurezza
+                            </li>
+                            <li>
+                                Assistenza
+                            </li>
+                            <li>
+                                Assistenza
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="secondary-column dashed-border-white">
+                        <ul class="flex">
+                            <li class="color-violet">
+                                Norme
+                            </li>
+                            <li>
+                                Scarica
+                            </li>
+                            <li>
+                                Perchè Discord
+                            </li>
+                            <li>
+                                Nitro
+                            </li>
+                            <li>
+                                Sicurezza
+                            </li>
+                            <li>
+                                Assistenza
+                            </li>
+                        </ul>
+                    </div>
                 </div>
             </section>
             <hr>
             <section class="container footer-bottom flex">
-                <div class="logo-wrapper background-pastel-pink dashed-border">
-                    Logo
+                <div class="logo-wrapper background-pastel-pink">
+                    <!-- Logo -->
+                    <img src="./img/logo.svg" alt="logo">
                 </div>
-                <div class="button-wrapper background-pastel-pink dashed-border">
-                    Bottone
+                <div class="button-wrapper background-pastel-pink">
+                    <button class="flex" id="register">Registrati</button>
                 </div>
             </section>
         </footer>
