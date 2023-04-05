@@ -143,14 +143,42 @@ main section div.big-column
 
 main section div.blue-column
 {
-    background-color: #1c87f0;
+    background-color: white;
     width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 main section div.pink-column
 {
-    background-color: #f1b5c0;
+    background-color: white;
     width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section div.pink-column h2 
+{
+    text-align: left;
+    height: 170px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+main section div.pink-column p 
+{
+    font-size: small;
+    line-height: 20px;
+    text-align: justify;
+    height: 170px;
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 main section div.big-column
@@ -315,5 +343,72 @@ nav ul li
 
 .starred-backgroud
 {
-    background-image: url('../images/starred.svg');
+    background-image: url('../img/stars.svg');
+}
+
+h2
+{
+    color: rgba(35,39,42,255);
+}
+
+#section-1-h2
+{
+    margin-left: 80px;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+#section-1-p
+{
+    margin-left: 80px;
+}
+
+#section-2-h2
+{
+    margin-left: 80px;
+    font-size: 30px;
+    height: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+#section-2-p
+{
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 200px;
+}
+
+
+#section-3-h2
+{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 80px;
+}
+
+#section-3-p
+{
+    margin-left: 80px;
+}
+
+#section-4-h2
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+#section-4-p
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
